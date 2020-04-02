@@ -12,7 +12,7 @@ long double fact(int n){
     if(n==0 || n==1)
     return 1;
     else 
-    return n*fact(n-1);
+    return n+fact(n-1);
 }
 
 void *factorial(void *p){
@@ -46,7 +46,7 @@ int main(){
             {
                 printf("%d \t", *value);
                 faktorial[iCount][jCount] = *value;
-                sleep(3);
+                sleep(5);
             }
             printf("\n");
         }

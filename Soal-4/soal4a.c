@@ -54,7 +54,7 @@ int main()
         {
             printf("%d \t",matrix3[iCount][jCount]);
             *value = matrix3[iCount][jCount];
-            sleep(3);
+            sleep(5);
         }
         printf("\n");
     }    
